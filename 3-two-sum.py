@@ -26,4 +26,13 @@ Output: [0,1]
 '''    
 
 def two_sum(nums, target):
+  # === ! naive, loop based solution ! === #
+  table = {}
+  # loop over the number set
+    # loop over number set to compare every item to every other item
+    # skip loop if both loops are at the same index
+    # add the numbers and see if they match the target
   pass
+
+two_sum([3,3], 6)
+two_sum([3,2,4], 6)
